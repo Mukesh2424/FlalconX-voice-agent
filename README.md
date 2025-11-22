@@ -1,56 +1,20 @@
-# 🛰️ FalconX – AI Voice Agent  
-### Built for the Murf Falcon AI Voice Agent Challenge
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+</div>
 
-FalconX is a futuristic, browser-based AI voice assistant that listens, understands, and responds to user queries using advanced speech recognition and Murf’s Falcon voice engine.  
-It is designed to demonstrate how next-generation AI voice agents can deliver natural, real-time conversations on the web.
+# Run and deploy your AI Studio app
 
----
+This contains everything you need to run your app locally.
 
-## 🚀 Features
+View your app in AI Studio: https://ai.studio/apps/drive/1JHGwgX3IH2sn_ilDiu8gJIlJM8jREbpQ
 
-- 🎙️ Real-time voice recognition  
-- 🔊 Murf Falcon AI voice response  
-- 🤖 AI-generated smart replies  
-- 🌐 Web-based agent (No installation required)  
-- 🦅 Falcon-inspired futuristic UI  
-- 📚 Supports general knowledge + futuristic questions  
-- ⚡ Lightweight and fast performance  
+## Run Locally
 
----
-
-## 🛠️ Tech Stack
-
-- HTML  
-- CSS  
-- JavaScript  
-- Murf AI (Falcon Voice Engine)  
-- Web Speech API  
-
----
-
-## 🎯 Challenge Objective
-
-This project is built as part of the  
-**Murf AI Falcon Voice Agent Challenge 2025**,  
-where developers create AI-driven voice assistants that feel human, intelligent, and interactive.
-
-FalconX focuses on:
-- Natural human-AI conversation  
-- Future-focused intelligence  
-- Clean and minimal UI  
-- Voice interaction using Murf Falcon  
-
----
-
-## 🧠 How It Works
-
-1. Click on the microphone button 🎤  
-2. Speak your query  
-3. FalconX converts your voice into text  
-4. The AI processes your request  
-5. Murf Falcon voice generates a spoken response  
-6. FalconX replies in real-time  
+**Prerequisites:**  Node.js
 
 
-## 📂 Project Structure
-
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`

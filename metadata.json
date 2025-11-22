@@ -1,0 +1,7 @@
+{
+  "name": "FalconX Voice Agent",
+  "description": "A real-time voice-to-voice AI assistant using FalconX technology with transcription and audio visualization.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
